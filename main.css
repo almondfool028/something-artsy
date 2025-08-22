@@ -61,6 +61,21 @@ body {
     text-decoration: none;
 }
 
+.overview-product {
+    margin: 30px;
+    display: block;
+    letter-spacing: .020em;
+    width: max-content;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.artist-link {
+    text-decoration: none;
+    color: cadetblue;
+}
+
 /*about us*/
 
 .explain {
@@ -77,3 +92,7 @@ body {
 }
 
  /* main color: pink/red, green (blue? teal?), yellow? cmyk i mean/*
+
+
+ /* main color: pink/red, green (blue? teal?), yellow? cmyk i mean/*
+
