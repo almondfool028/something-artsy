@@ -1,0 +1,79 @@
+/*home page*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bitcount Prop Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(231, 83, 120);
+    margin: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+body {
+    background-color:rgb(247, 243, 231);
+}
+
+.logo {
+   display: block;
+   margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+.artist-name {
+    color: black;
+    text-decoration: none;
+}
+
+.credit_text {
+    color: black;
+    text-decoration: none;
+}
+
+/*about us*/
+
+.explain {
+    text-align: center;
+}
+
+.explain-lol {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.uhh {
+    font-size: 7px;
+}
+
+ /* main color: pink/red, green (blue? teal?), yellow? cmyk i mean/*
