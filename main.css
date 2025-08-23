@@ -2,6 +2,7 @@
 
 body {
     min-height: 100vh;
+    margin:0;
     display: flex;
     flex-direction: column;
     font-family: "Bitcount Prop Double", system-ui;
@@ -15,35 +16,63 @@ body {
     "ELXP" 0;
 }
 
-.navbar {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(231, 83, 120);
-    margin: 10px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 10px;
-    border-radius: 5px;
     align-items: center;
+    overflow: hidden;
+    background-color: rgb(231, 83, 120);
 }
 
-.navbar a {
-    text-decoration: none;
-    color: cornsilk;
+li {
+  float: left;
 }
 
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 body {
     background-color:rgb(247, 243, 231);
 }
 
 .logo {
-   display: block;
-   margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .footer {
@@ -61,19 +90,39 @@ body {
     text-decoration: none;
 }
 
-.overview-product {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    align-self: baseline;
+}
+
+.container > div {
     margin: 30px;
+    padding: 20px;
     display: block;
     letter-spacing: .020em;
-    width: max-content;
+    width: fit-content;
     background-color: white;
-    border: 10px solid white;
+    border: 2px solid cadetblue;
     border-radius: 10px;
+    align-self: baseline;
 }
 
 .artist-link {
     text-decoration: none;
     color: cadetblue;
+}
+
+.prod > .titl {
+    text-decoration: none;
+    color: black;
+}
+
+.prod > h2 {
+    font-weight: lighter;
 }
 
 /*about us*/
@@ -89,10 +138,10 @@ body {
 
 .uhh {
     font-size: 7px;
+    color: bisque;
 }
+/* i did all of this in 5 hrs :( */
 
  /* main color: pink/red, green (blue? teal?), yellow? cmyk i mean/*
 
-
- /* main color: pink/red, green (blue? teal?), yellow? cmyk i mean/*
 
